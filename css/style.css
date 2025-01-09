@@ -40,6 +40,11 @@ h2{
     max-width: 500px;
 }
 
+.page {
+    position: relative;
+    left: 25px;
+}
+
 form{
     padding: 20px 20px;
     margin: 30px;
@@ -144,26 +149,42 @@ p > a:hover{
     text-decoration: underline;
 }
 
-.nav-footer {
-    display: block;
+footer {
+    padding: 30px;
     background-color: #fff;
-    align-items: center;
+    color: #919090;
+    text-align: start;
+
+    a { 
+        color: #919090;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-.nav-language {
-    display: flex;
-
+a, small {
+    width: 350px;
 }
 
-.language, a{
-    display: flex;
-    gap: 20px;
-    text-decoration: none;
+.meta p {
+    position: relative;
+    left: 5px;
     font-size: 12px;
-    color: #90949C;
+    color: #919090;
 }
 
-.register, a {
-    color: #1877F2;
-}
+
+
+
+
+
+
+
+
+
 
